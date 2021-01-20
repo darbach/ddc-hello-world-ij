@@ -2,7 +2,7 @@ package edu.cnm.deepdive.prework;
 
 public class HelloWorld {
 
-  public static String buildMessage(String[] args) {
+  public static String salutation(String[] args) {
     //conditional operator
     return "Hello, " + ((args.length > 0) ? args[0] : "World");
   }
@@ -12,7 +12,7 @@ public class HelloWorld {
   }
 
   public static void main (String[] args) {
-    salute(buildMessage(args));
+    salute(salutation(args));
   }
 
 
